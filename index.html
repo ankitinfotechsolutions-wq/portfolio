@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankit Bansal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/466c1b1cba.js" crossorigin="anonymous"></script>
+    <script src="portfolio.js"></script>
+    <link rel="icon" type="images/png" sizes="any" href="images/dev.png">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="#" class="logo" alt="">   <!-- Add your logo here-->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>Network Administrator</p>
+                <h1>Hii, I'm <span> Ankit Kumar Bansal</span><br>From India</h1>
+            </div>
+        </div>
+    </div>
+
+<!-- ------------------about------------------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Ankit_2.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br>
+                    <p>As a network engineer with 8+ years of experience, having a strong background in designing, implementing, and maintaining computer networks for organizations with skills  include's configuring and troubleshooting network devices such as routers, switches, firewalls, and load balancers, as well as working with protocols like TCP/IP. <br><br>   
+
+                        Familiar with network security best practices and have experience in implementing security measures such as firewalls, VPNs, and access control lists with cloud-based network technologies and virtualization.<br><br>
+                        
+                        In addition to technical skills, I likely possess strong communication and interpersonal skills, as I have likely worked with teams of IT professionals, stakeholders, and end-users. I likely able to explain complex technical issues to non-technical stakeholders and work collaboratively to solve problems. <br><br>
+                        
+                        Overall, as a network engineer with 6+ years of experience, I bring a wealth of technical knowledge and experience to any organization and are a valuable asset to any team.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>OS</span><br></li>
+                            <li><span>Servers</span><br></li>
+                            <li><span>Network</span><br></li>
+                            <li><span>Troubleshooting</span><br></li>
+                            <li><span>Domain Server</span><br></li>
+                            <li><span>Team Work</span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <table>
+                            <tr>
+                                <th>Duration</th>
+                                <th>Designation</th>
+                                <th>Organisation</th>
+                            </tr>
+                            <tr>
+                                <td>May 2022 - Current</td>
+                                <td>Manager</td>
+                                <td>Dayton Natural Resources PVT. LTD</td>
+                            </tr>
+
+                            <tr>
+                                <td>7 Years</td>
+                                <td>Technical Support Engineer</td>
+                                <td>Deepija Telecom Private Ltd.</td>
+                            </tr>
+
+                            <tr>
+                                <td>2 Years</td>
+                                <td>Technical Support Engineer</td>
+                                <td>BB Professional Pvt. Ltd.</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>BCS IT</span><br>Sikkim Manipal University</li>
+                            <li><span>XII</span><br>ABM Bhartpur</li>
+                            <li><span>X</span><br>ABM Bhartpur</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- --------------------services--------------------->
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-network-wired"></i>
+                    <h2>Network Management</h2>
+                    <p>Network Management with atmost 8+ year of Experience in different Domain. Such as Configuring Router, Switches, GSM GateWay, PRI GateWay, firewall and various Networking. Managing IO Ports and Straight (CAT - 6, 5.5) Cable Management and Spreading Connection over whole Organisation :p </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-server"></i>
+                    <h2>Server Management</h2>
+                    <p>Working with Various Servers and having strong command on Both Windows(2003-16), Apache Web Servers , Linux (Centos/Ubuntu) Server and Hands on Experience with VM-Ware Virtualization Environment. </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>DataBase Management</h2>
+                    <p>Configuring DataBase server such as MySQl and MSSQL and hands on work on them.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- -----------------------Contact--------------------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i> ankit21@hotmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 76656-54320</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/bansalankit65/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" target="_blank" ><i class="fa-brands fa-linkedin"></i></a>
+                        
+                    </div>
+                    <a href="Ankit.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required id="">
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Keven. Made with <i class="fa-solid fa-heart"></i> by Ekansh Soni</p>
+        </div>
+    </div>
+
+
+<script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwiDfo-OEDiTc7__GuN3G-T6iUfCz9Za1bs5Z4EWeeWvfxb-rkajhrWwOPFSpl9tcuygQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg')
+
+        form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, {mode:"no-cors", method: 'POST', body: new FormData(form)})
+            .then(response => {
+                
+                msg.innerHTML = "Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+</script>
+
+</body> 
+</html>
